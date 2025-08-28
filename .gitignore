@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+strenv/
+vrenv/
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# Streamlit cache and logs
+.streamlit/
+**/__pycache__/
+
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db 
+Desktop.ini
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+#For deployment
+.dockerignore
+.glcoudignore
