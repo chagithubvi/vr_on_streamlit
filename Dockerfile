@@ -44,4 +44,4 @@ COPY . /app
 
 EXPOSE 8501
 
-CMD ["streamlit", "run", "main_cloud.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.enableCORS=false"]
+CMD ["streamlit", "run", "main_cloud.py", "--server.port=8080", "--server.address=0.0.0.0", "--server.enableCORS=false"]
